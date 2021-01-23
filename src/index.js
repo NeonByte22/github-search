@@ -107,7 +107,7 @@ class Main extends React.Component {
             <div className="main">
                 <div className="search">
                     <form onSubmit={this.handleSubmit}>
-                        <h1 className="mainHeader">Github API | React JS</h1>
+                        <h1 className="mainHeader">Github Search</h1>
                         <div className="group">
                             <span class='material-icons'>person</span>
                             <input ref={(el) => this._input = el} type="search" name="username" placeholder="GitHub Username" maxLength="39" onChange={this.handleChange} autoComplete="off" /><br />
